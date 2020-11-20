@@ -32,10 +32,15 @@
 Bootstrap 4 breakpoints
 */
 
-@media (min-width: 344px) {  
+@media (max-width: 544px) {  
   .fontStyle{
     font-size: 12px;
     /* border: 1px solid black; */
+  }
+
+  .mainHeading{
+    font-size: 2rem;
+    margin-top:-10px;
   }
 }
 
@@ -45,6 +50,11 @@ Bootstrap 4 breakpoints
     font-size: 12px;
     /* border: 1px solid red; */
   }
+
+  .mainHeading{
+    font-size:50px;
+    margin-top:-10px;
+  }
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -52,6 +62,11 @@ Bootstrap 4 breakpoints
   .fontStyle{
     font-size: 12px;
     /* border: 1px solid green; */
+  }
+
+  .mainHeading{
+    font-size:65px;
+    margin-top:-10px;
   }
 }
  
@@ -61,6 +76,11 @@ Bootstrap 4 breakpoints
     font-size: 14px;
     /* border: 1px solid blue; */
   }
+
+  .mainHeading{
+    font-size: 110px;
+    margin-top:-40px;
+  }
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
@@ -68,6 +88,11 @@ Bootstrap 4 breakpoints
   .fontStyle{
     font-size: 16px;
     /* border: 1px solid black; */
+  }
+
+  .mainHeading{
+    font-size: 110px;
+    margin-top:-40px;
   }
 }
  
